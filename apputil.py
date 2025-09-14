@@ -18,7 +18,7 @@ def fibonacci(n: int) -> int:
         return 0
     if n == 1:
         return 1
-    return fib(n - 1) + fib(n - 2)
+    return fibonacci(n - 1) + fibonacci(n - 2)
 
 # def fib(n: int) -> int:
 #     """Return the nth Fibonacci number using iteration.
